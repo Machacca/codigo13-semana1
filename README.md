@@ -44,6 +44,8 @@ git checkout -b nombre_del_branch
 ```
 Git checkout 
 ```
+sirve para poder moverme entre ramas
+```
 Git push
 ```
 -para subir nueva rama o branch
@@ -52,6 +54,12 @@ Git push
 Git Add.
 ```
 para subir nueva carpeta
+
+```
+Git push origin "nombre"
+```
+
+Para actualizar
 
 ```
 Git pull --rebase origin develop
