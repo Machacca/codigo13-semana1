@@ -1,0 +1,46 @@
+/* "*" = todo */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ /*selector de descendiente:*/
+  .contenedor p {
+      color: red;
+  }
+
+  .contenedor-dos h2 {
+      color: rgb(5, 2, 15);
+  }
+
+  .contenedor-tres a img {
+      border: 2px solid purple;
+  }
+
+  .menu-navegacion {
+      margin: 20px;
+  }
+/*
+  ul > li {
+      border: 2px solid blue;
+  }
+  */
+
+  .link-navegacion {
+      border: 2px solid green;
+  }
+
+  input[type="email"] {
+      background-color: brown;
+  }
+
+  input[type="text"] {
+    background-color: rgb(245, 3, 3);
+}
+input[type="password"] {
+    background-color: rgb(240, 177, 3);
+}

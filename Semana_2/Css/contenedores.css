@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*hexadecimal*/
+/*#000000 - negro*/
+/*#ffffff - blanco*/
+/*#f0f0f0 - rojo*/
+/*#000*/
+
+
+body {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+}
+
+.contenedor-uno {
+    height: 30vh;
+    background-color: chartreuse;
+}
+.contenedor-form {
+    border: 3px solid red;
+}
+
+/*rgb*/
+/*r-rojo*/
+/*g-verde*/
+/*B-azul*/
+input {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid blue;
+}
+
+article {
+    height: 40vh;
+    background-color: rgb(199, 2, 2);
+}

@@ -1,0 +1,164 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+    /*background-color: #C70039;*/
+    color: rgb(44, 3, 3);
+}
+
+h2 {
+    /*background-color: #440013;*/
+    color: sienna;
+}
+
+h3 {
+    background-color: black;
+    color: blanchedalmond;
+}
+p {
+    
+    color: rgb(214, 214, 214);
+}
+
+a {
+    background-color: red;
+    color: teal;
+}
+
+p {
+
+    color: cornsilk;
+}
+/*la forma correcta en la cual enlaza un ID en CSS es usando el # */
+/* un ID se usa cuando se tiene un estilo especifico para un solo elemento*/
+#contenedor-uno
+ {
+     background-color: blue;
+ }
+/* para poder compartir estilos debemos usar clases `Class`*/
+/* para poder acceder a un elemento que tiene un class usamos . */
+#contenedor-dos
+ {
+     background-color: chartreuse;
+ }
+.contenedor-principal
+ {
+     background-color: red;
+     padding: 40px;
+ }
+
+ .btn-ingresar {
+     background-color: saddlebrown;
+     color: seashell;
+     padding: 10px;
+     border-radius: 10px;
+     border: none;
+ }
+ /*sepan que cuando se usas clases se pueden compartir estilos*/
+
+ .btn-registro {
+     font-size: 25px;
+     background-color: red;
+ }
+
+.contenedor-form {
+    /*Bordes que cubre*/
+    border: 3px solid #5f0000;
+    border-radius: 8px; 
+    }
+
+.contenedor-interno-form {
+    padding: 20px;
+    /*text-align: para centrar las letras en la pagina;*/
+
+    text-align: center;
+}
+
+.titulo-form {
+    color: cadetblue;
+    /*background-color: rgb(68, 0, 255);*/
+}
+
+.input-form {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(1, 8, 22);
+    width: 400px;
+}
+
+.input-codigo {
+    width: 100px;
+}
+
+.input-numero{
+    width: 275px;
+}
+
+.input-usuario {
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF3600;
+    border: 1px solid white;
+    width: 150px;
+}
+
+/*PSEUDOCLASES*/
+/*los elementos tienen propiedades internas por ejemplo el hover
+hover: es la propiedad que detecta cuando el mouse
+esta sobre el elemento, es decir estos estilos se aplicaran
+solo si el mouse esta sobre el dicho elemento*/
+.input-usuario:hover{
+    background-color: rgb(22, 5, 117);
+    color: green;
+}
+.btn-ingresar:hover {
+    background-color: red;
+    color: rgb(22, 5, 117);
+
+    /*Quita el subrayado*/
+    text-decoration:none;
+    /*padding: 50px;*/
+}
+
+/*los elementos de pseudoclases funcionan en los:
+ link
+ visited
+ hover
+ active */
+
+ /* estas pseudoclases aplican para todos los elementos de html*/
+
+ div:hover {
+     /*background-color: rgb(184, 54, 3);
+ }*/
+
+ .contenedor-interno-form h1 {
+     border: 2px solid rgb(12, 1, 1);
+ }
+
+ .contenedor-interno-form p:first-child {
+    border: 2px solid rgb(230, 50, 50);
+}
+
+/*:first-child*/
+/*busca el primer elemento*/
+/*<h1></h1>*/
+/*<h1></h1>*/
+/*<h1></h1>*/
+/*<h1></h1>*/
+
+h1:first-child {
+    color: rgb(255, 255, 255)
+}
+/*para que las letras donde que el usuario escriba se caradterice de un color*/
+input:first-of-type {
+    color: red;
+}
+
+h2:nth-child(0)
+{
+
+}

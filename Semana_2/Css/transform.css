@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cotainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    height: 100vh;
+
+}
+
+.form {
+    border: 2px solid#ccc;
+    padding: 50px;
+    border-radius: 80px;
+}
+
+.form h2 {
+    letter-spacing: 2px;
+    color: royalblue;
+
+}
+
+.input-form {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    padding: 10px;
+    width: 110px;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+/*usaremos transform cuando queremos
+cambiar el estado de una propiedad*/
+
+.btn-primary:hover {
+    background-color: yellow;
+}
+
+.text-help {
+    display: none;
+    max-width: 300px;
+    min-width: 300px;
+    transition: ease-in is;
+}
+
+.button-help {
+    border: none;
+    background-color: transparent;
+}
+
+.cotainer-help:hover + .text-help {
+    display: block !important;
+    /*transform: scale(1.3);*/
+}
+
