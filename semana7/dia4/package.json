@@ -1,0 +1,17 @@
+{
+  "name": "dia4",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto con NODE",
+  "main": "prueba.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Armando Machacca",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-format": "^4.0.4",
+    "express": "^4.17.3"
+  }
+}

@@ -49,3 +49,4 @@ console.log("ultimo elemento", alumnos[alumnos.length-1]);
 
 
 
+// creen una funcion que reciba un array y si el length de array  

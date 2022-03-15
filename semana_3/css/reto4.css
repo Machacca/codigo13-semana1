@@ -11,10 +11,20 @@
     display: grid;
     grid-template-columns: auto 30% auto;
     grid-template-rows: auto auto;
-    text-align: center;
+    /*text-align: center;*/
+    padding: 0px;
     height: 100vh;
   }
-  
+
+  .img-profiles {
+   /* width: 243px;
+    height: 243px;*/
+    border-radius: 80%;
+  }
+  .name {
+    font-size: 15px;
+  }
+
   .container div {
     border: solid;
     margin: 20px;
